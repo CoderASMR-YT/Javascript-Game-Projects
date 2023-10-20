@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+:root {
+  --white: #ffffff;
+  --dark-blue: #07253a;
+  --light-blue: #2681c7;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  user-select: none;
+  font-family: Poppins;
+  background-color: var(--dark-blue);
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 33em;
+}
+.result #player,
+#computer {
+  width: 12em;
+}
+.result #player {
+  transform: rotate(80deg);
+}
+.result #computer {
+  transform: rotate(260deg);
+}
+.text-result {
+  margin: 3.5em 0 6em 0;
+}
+.text-result h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--white);
+}
+.select-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.select-item .item {
+  width: 10em;
+  border-radius: 7em;
+  padding: 1em;
+  background-color: var(--white);
+  border: 0.4em solid var(--light-blue);
+  margin: 0 1em;
+  cursor: pointer;
+}
+.item img {
+  width: 10em;
+}
