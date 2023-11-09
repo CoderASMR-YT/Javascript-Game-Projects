@@ -1,0 +1,77 @@
+/*--Landscape phone to portrait tablet--*/
+@media screen and (max-width: 1024px) {
+  .board-game {
+    width: 46em;
+  }
+  .score {
+    transform: translate(33em, 1.6em);
+  }
+  .gameOver {
+    transform: translate(3.5em, 3em);
+  }
+}
+/*--Largephones--*/
+@media screen and (max-width: 767px) {
+  .board-game {
+    width: 29em;
+  }
+  .score {
+    transform: translate(17em, 1.6em);
+  }
+  .gameOver {
+    font-size: 3.37rem;
+    transform: translate(2.6em, 4em);
+  }
+  .info {
+    marker-start: 4em 0 0 0;
+  }
+  .info p {
+    font-size: 0.6rem;
+  }
+  .info p span {
+    font-size: 0.8rem;
+  }
+}
+/*--Smartphones--*/
+@media screen and (max-width: 480px) {
+  .board-game {
+    width: 18em;
+    height: 18em;
+  }
+  .sonic {
+    margin: 0 0 0 1.1em;
+    bottom: 1.2em;
+  }
+  .sonic img {
+    width: 3em;
+  }
+  .block {
+    bottom: 1.2em;
+  }
+  .block img {
+    width: 2.2em;
+  }
+  .road img {
+    height: 1.4em;
+  }
+  .cloud img {
+    width: 80em;
+  }
+  .score {
+    font-size: 0.8rem;
+    transform: translate(11em, 2em);
+    width: 10em;
+  }
+  .gameOver {
+    font-size: 2rem;
+  }
+  .info {
+    margin: 3em 0 0 0;
+  }
+  .info p {
+    font-size: 0.4rem;
+  }
+  .info p span {
+    font-size: 0.6rem;
+  }
+}
